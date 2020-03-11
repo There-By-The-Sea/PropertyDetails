@@ -1,0 +1,29 @@
+{
+  "name": "property-details",
+  "version": "1.0.0",
+  "description": "property details for there by the sea",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack -d --watch",
+    "schema": "mysql -u root < schema.sql",
+    "server": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/There-By-The-Sea/PropertyDetails.git"
+  },
+  "author": "Phillip Korolog",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
